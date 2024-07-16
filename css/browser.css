@@ -271,3 +271,23 @@ body.show-message-buttons .s8sjc6am.z6erz7xo.alzwoclg.jcxyg2ei.i85zmo3j.b0ur3jhr
 body.show-message-buttons .cgu29s5g.alzwoclg.oo5upp5e {
 	margin-left: 15px !important;
 }
+
+/* variable */
+.__fb-dark-mode {
+	--card-spacing: 0px;
+}
+
+/* you can remove this to keep the space on the right most card*/
+.x1mj4gcd.x1mj4gcd {
+	padding-right: var(--card-spacing);
+}
+
+/* Remove top space between the cards and the menu bar */
+.x13dmulc.x13dmulc {
+	margin-top: var(--card-spacing); 
+}
+
+/* Fix user account picture cutout or bad spacing*/
+.xz9dl7a.xz9dl7a  {
+	padding-bottom: 6px; 
+}
